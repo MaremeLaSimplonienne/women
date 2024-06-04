@@ -1,0 +1,224 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+.navbar{
+    background-color:brown;
+    position: fixed;
+    width: 100%;
+}
+.containeur{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+/****menu****/
+
+.navbar .containeur .menucontaineur li{
+   display: inline-block;
+ }
+.navbar .containeur a{
+    color: white;
+}
+.navbar .containeur .menucontaineur ul{
+    padding: 3px 30px;
+}
+.navbar .containeur .menucontaineur li{
+    margin-left: 20px;
+}
+.navbar .menucontaineur a:hover{
+    color: black;
+    transition: 0.8s;
+}
+/******Traitement du logo******/
+
+
+.containeur .logocontaineur a{
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+}
+.containeur .logocontaineur span{
+    color: black;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+}
+/********Traitement de la section A propos de moi********/
+
+
+.Aproposdemoi{
+    height: 600px;
+    background: url(IMG_6469.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    
+}
+.Aproposdemoi .containeur2{  
+    padding-top: 250px;
+    padding-left: 90px;
+    
+}
+.Aproposdemoi .containeur2 .text1{
+    font-size: 30px;
+    color: white;
+}
+    .Aproposdemoi .containeur2 .text2{
+        font-size: 45px;
+        font-weight: 500;
+        color:brown
+    }
+    .Aproposdemoi .containeur2 .text3{
+        font-size: 27px;
+        font-weight: 500;
+        color:white
+    }
+    .Aproposdemoi .containeur2 .text3 span{
+        font-size: 27px;
+        font: weight 500;
+        color:brown
+    }
+
+    /**********bouton1**********/
+
+
+ .Aproposdemoi .containeur2 .bouton1 a{
+        border: 2px solid color brown;
+        background-color: brown;
+        color: white;
+    }
+    .Aproposdemoi .containeur2 .bouton1{
+        margin-top: 30px;
+    }
+    .Aproposdemoi .containeur2 .bouton1 a:hover{
+        background-color:black;
+       
+    }
+    /********section projets*******/
+    .Projets{
+        height: 400px;
+        padding: 10px;
+    }
+   
+     .Projets h2{
+        text-align:  center;
+        font-size: 40px;
+        text-decoration:underline brown;
+     }
+     .Projets .containeur3{
+        display: flex;
+        padding: 10px 80px;
+     }
+     .Projets .containeur3 .containtext{
+        margin-top: 45px;
+        font-size: 20px;
+     }
+     .Projets .containeur3 .containtext #p1{
+        font-size: 30px;
+        font-weight: 600;
+     }
+     C #p2{
+        text-align: justify;
+     }
+     .IMG{
+        padding-right: 30px;
+     }
+     .Projets .containeur3 .containtext #p1 span{
+        color: brown;
+     }
+     .Projets .containeur3 .containtext .bouton2 a{
+        border: 2px solid color brown;
+        background-color: brown;
+        color: white;
+        font-size: 30px;
+        border-radius: 10px;
+     }
+     .Projets .containeur3 .containtext .bouton2{
+        margin-top: 25px;
+     }
+     .Projets .containeur3 .containtext .bouton2 a:hover{
+       background: none;
+       color: brown;
+     }
+     /**********section compétences********/
+     .compétences{
+        height: 300px;
+        background-color: black;
+        padding: 50px 100px;
+        color: white;
+    }
+    .compétences .containeur4{
+        display: flex;
+    }
+    .compétences .containeur4 .card{
+        width: 700px;
+        height: 150px;
+       background: rgba(220, 220, 220, 0.516);
+       margin: 20px;
+       border: 2px solid rgba(7, 7, 7, 7);
+       position: relative;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    }
+    .compétences .containeur4 .card :hover{
+        -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+    }
+    .compétences .containeur4 .card p{
+        text-align: center;
+    }
+    .form fieldset{
+        width: 75%;
+        border:1px solid black ;
+        margin: 0 auto;
+        background-color: white;
+    }
+    
+    .form input{
+        width:50% ;
+    }
+    
+    .form h1{
+        text-decoration: underline;
+        text-align: center;
+    }
+    
+    .form fieldset button{
+        margin-left: 75%;
+    }
+    
+    footer section {
+        display: flex;
+        position: relative;
+       justify-content: space-around;
+    background-color: brown;
+        border: 1px solid rgb(14, 161, 161);
+    }
+    
+    footer p{
+        margin-left: 70px;
+        color: white;
+        font-size: 20px;
+        height: 10vh;
+    }
+    
+    footer a img{
+        width: 5vw;
+       padding-top: 5px;
+       margin-right: 10vw;
+       color: white;
+    
+    }
+    
+
+     
+     
